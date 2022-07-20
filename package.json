@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "discord.js": "^13.8.0",
+    "ts-node": "^10.8.1"
+  },
+  "name": "jdbot_js",
+  "version": "1.0.0",
+  "description": "Viridian",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/star0202/jdbot_js.git"
+  },
+  "author": "Starcea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/star0202/jdbot_js/issues"
+  },
+  "homepage": "https://github.com/star0202/jdbot_js#readme",
+  "devDependencies": {
+    "eslint": "^8.18.0"
+  }
+}
