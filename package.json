@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "@discordjs/builders": "^1.0.0",
+    "@discordjs/rest": "^1.0.0",
+    "discord-api-types": "^0.36.2",
     "discord.js": "^13.8.0",
     "ts-node": "^10.8.1"
   },
@@ -21,6 +24,8 @@
   },
   "homepage": "https://github.com/star0202/jdbot_js#readme",
   "devDependencies": {
-    "eslint": "^8.18.0"
+    "dotenv": "^16.0.1",
+    "eslint": "^8.18.0",
+    "tsc-watch": "^5.0.3"
   }
 }
