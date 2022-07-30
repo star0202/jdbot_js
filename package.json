@@ -10,9 +10,6 @@
   "version": "1.0.0",
   "description": "Viridian",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/star0202/jdbot_js.git"
@@ -24,8 +21,13 @@
   },
   "homepage": "https://github.com/star0202/jdbot_js#readme",
   "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
     "dotenv": "^16.0.1",
     "eslint": "^8.18.0",
     "tsc-watch": "^5.0.3"
+  },
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node ./dist/src/index.js\"",
+    "lint": "eslint ./src/*.ts --fix"
   }
 }
